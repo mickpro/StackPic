@@ -57,7 +57,7 @@ void step(char direction)
     digitalWrite(DIR, HIGH);
 
   // Pulse to step
-  digitalWrite(13, HIGH);
+  digitalWrite(STEP, HIGH);
   delay(DELAY_SEND);
-  digitalWrite(13, LOW);
+  digitalWrite(STEP, LOW);
 }
