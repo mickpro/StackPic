@@ -34,7 +34,7 @@ else:
     step_per_sec = None
 
 baud = int(args.baud)
-signal = args.signal
+signal = args.signal.encode()
 port = args.port
 
 ser = None
