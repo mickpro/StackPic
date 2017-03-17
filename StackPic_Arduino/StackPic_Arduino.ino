@@ -33,11 +33,9 @@ void loop()
     {
       case '+':
         step(FORWARD);
-        Serial.print("AVANT TOUTE");
         break;
       case '-':
         step(BACKWARD);
-        Serial.print("SPRES TOUTE");
         break;
       // May need to add commands... (not supposed)
       default:
@@ -61,3 +59,6 @@ void step(char direction)
   delay(DELAY_SEND);
   digitalWrite(STEP, LOW);
 }
+
+
+
