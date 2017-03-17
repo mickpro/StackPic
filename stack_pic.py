@@ -44,7 +44,7 @@ step_per_delay = int(args.step_per_delay)
 
 if args.dof is not None:
     dof = float(args.dof)
-    step_per_delay = (floor(dof / 0.00012/5))
+    step_per_delay = (floor(dof / 0.0012))
 
 ser = None
 
